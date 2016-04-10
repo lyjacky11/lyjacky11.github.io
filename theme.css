@@ -1,0 +1,223 @@
+body,a {
+	cursor: url("cursor.ani"), progress !important;
+}
+
+a:link,a:visited,a:active {
+	text-decoration:none;
+	color:yellow;
+}
+
+a:hover {
+	text-decoration:none;
+	color:orange;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: repeat;
+}
+
+body ul li a strong {
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+
+figure:nth-child(1) {
+	animation: xfade 48s 42s infinite;
+}
+figure:nth-child(2) {
+	animation: xfade 48s 36s infinite;
+}
+figure:nth-child(3) {
+	animation: xfade 48s 30s infinite;
+}
+figure:nth-child(4) {
+	animation: xfade 48s 24s infinite;
+}
+figure:nth-child(5) {
+	animation: xfade 48s 18s infinite;
+}
+figure:nth-child(6) {
+	animation: xfade 48s 12s infinite;
+}
+figure:nth-child(7) {
+	animation: xfade 48s 6s infinite;
+}
+figure:nth-child(8) {
+	animation: xfade 48s 0s infinite;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border-radius:25px;
+}
+
+li a:hover:not(.active) {
+    background-color: #3C6;
+}
+
+li a.active {
+    color: orange;
+    background-color: #36F;
+}
+
+#logo {
+	border-radius: 20px;
+	background-clip: padding-box;
+}
+
+#header {
+	text-align: center;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+
+#form {
+    text-align:right;
+	color:yellow;
+}
+
+#form form strong {
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+#search {
+    text-align:left;
+	color:yellow;
+}
+
+#search search strong {
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+
+#social {
+	color: yellow;
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+
+#specs {
+  color: orange;
+  text-align:center;
+  position: relative;
+  top:125px;
+}
+
+#specs h4 {
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+
+#specs a table tbody tr td {
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+
+#footer {
+  color: yellow;
+  text-align:center;
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+
+#footer h5 em {
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+
+.active strong {
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+
+.css-slideshow{
+  color: orange;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  position: relative;
+  max-width: 495px;
+  height: 370px;
+  top: 25px;
+}
+
+.css-slideshow figure{
+  margin: 0;
+  max-width: 495px;
+  height: 370px;
+  position: absolute;
+}
+
+.css-slideshow h3 {
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+
+@keyframes xfade{
+  0%{opacity: 1;}
+  10.5% {opacity: 1;} 
+  12.5%{opacity: 0;}
+  98% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.social-roll {
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	border-radius: 50%;
+	transition: all ease 0.3s;
+}
+
+.social-roll:hover {
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	transform:rotate(360deg);
+}
+
+.twitter-roll {
+	background-image: url(social-roll/twitter-roll.png);
+}
+
+.twitter-roll:hover {
+	background-image: url(social-roll/twitter-hover.png);
+}
+
+.facebook-roll {
+	background-image: url(social-roll/facebook-roll.png);
+}
+
+.facebook-roll:hover {
+	background-image: url(social-roll/facebook-hover.png);
+}
+
+.google-roll {
+	background-image: url(social-roll/googleplus-roll.png)
+}
+
+.google-roll:hover {
+	background-image: url(social-roll/googleplus-hover.png)
+}
+
+.instagram-roll {
+	background-image: url(social-roll/instagram-roll.png)
+}
+
+.instagram-roll:hover {
+	background-image: url(social-roll/instagram-hover.png)
+}
+
+.youtube-roll {
+	background-image: url(social-roll/youtube-roll.png)
+}
+
+.youtube-roll:hover {
+	background-image: url(social-roll/youtube-hover.png)
+}
