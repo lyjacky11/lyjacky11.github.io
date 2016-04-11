@@ -15,6 +15,7 @@ a:hover {
 body {
     background-image: url("background.jpg");
     background-repeat: repeat;
+	color:yellow;
 }
 
 body ul li a strong {
@@ -132,6 +133,11 @@ li a.active {
 
 #footer h5 em {
 	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+
+#comparison {
+    text-align:right; 
+    color:yellow
 }
 
 .active strong {
