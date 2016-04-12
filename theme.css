@@ -16,6 +16,7 @@ body {
     background-image: url("background.jpg");
     background-repeat: repeat;
 	color:yellow;
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
 }
 
 body ul li a strong {
