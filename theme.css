@@ -1,3 +1,4 @@
+/*background-image is not learnt in class */
 body,a {
 	cursor: url("cursor.ani"), progress !important;
 }
@@ -14,9 +15,12 @@ a:hover {
 
 body {
     background-image: url("background.jpg");
+    background-color: black;
     background-repeat: repeat;
 	color:yellow;
 	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+    font-style:normal;
+    font-size:medium;
 }
 
 body ul li a strong {
@@ -48,7 +52,11 @@ figure:nth-child(8) {
 	animation: xfade 48s 0s infinite;
 }
 
-ul {
+table {
+      border:1px solid yellow;
+      border-collapse:collapse;
+}
+#nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -57,11 +65,11 @@ ul {
     background-color: transparent;
 }
 
-li {
+#nav li {
     float: right;
 }
 
-li a {
+#nav li a {
     display: block;
     color: #666;
     text-align: center;
@@ -70,11 +78,11 @@ li a {
 	border-radius:25px;
 }
 
-li a:hover:not(.active) {
-    background-color: #3C6;
+#nav li a:hover:not(.active) {
+    background-color: yellow;
 }
 
-li a.active {
+#nav li a.active {
     color: orange;
     background-color: #36F;
 }
@@ -165,6 +173,10 @@ li a.active {
 
 .css-slideshow h3 {
 	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+
+.footnote {
+    text-align:right;
 }
 
 @keyframes xfade{

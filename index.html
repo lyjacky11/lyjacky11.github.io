@@ -8,18 +8,19 @@
 <link property="stylesheet" rel="stylesheet" type="text/css" href="theme.css">
 <title>PC Gaming</title>
 <style type="text/css">
-<!--
--->
+<!--Style is div (not learnt in class)-->
 </style>
 </head>
 <body>
+<div id="nav">
 <ul>
   <li><a href="games.html"><strong>Games</strong></a></li>
   <li><a href="specs.html"><strong>Specs</strong></a></li>
   <li><a href="whypc.html"><strong>Why PC?</strong></a></li>
   <li><a class="active" href="index.html"><strong>Home</strong></a></li>
 </ul>
-<a href="index.html"><img src="logo.png" width="75" height="75" alt="Logo" border="0" id="logo"></a>
+</div>
+<a href="index.html"><img src="logo.png" width="75" height="75" alt="Logo" id="logo"></a>
 <div id="form">
   <form action="search.php" method="post" spellcheck="true" autocomplete="off">
     <strong>What are you looking for?</strong>
@@ -48,21 +49,22 @@
 <div class="css-slideshow"> <br>
   <h3> Finished Custom PC Builds </h3>
   <a href="whypc.html">
-  <figure> <img src="css-slideshow\1.jpg" width="495" height="370" alt="Computers"/> </figure>
-  <figure> <img src="css-slideshow\2.jpg" width="495" height="370" alt="Computers"/> </figure>
-  <figure> <img src="css-slideshow\3.jpg" width="495" height="370" alt="Computers"/> </figure>
-  <figure> <img src="css-slideshow\4.jpg" width="495" height="370" alt="Computers"/> </figure>
-  <figure> <img src="css-slideshow\5.jpg" width="495" height="370" alt="Computers"/> </figure>
-  <figure> <img src="css-slideshow\6.jpg" width="495" height="370" alt="Computers"/> </figure>
-  <figure> <img src="css-slideshow\7.jpg" width="495" height="370" alt="Computers"/> </figure>
-  <figure> <img src="css-slideshow\8.jpg" width="495" height="370" alt="Computers"/> </figure>
+  <figure> <img src="css-slideshow/1.jpg" width="495" height="370" alt="Computers"/> </figure>
+  <figure> <img src="css-slideshow/2.jpg" width="495" height="370" alt="Computers"/> </figure>
+  <figure> <img src="css-slideshow/3.jpg" width="495" height="370" alt="Computers"/> </figure>
+  <figure> <img src="css-slideshow/4.jpg" width="495" height="370" alt="Computers"/> </figure>
+  <figure> <img src="css-slideshow/5.jpg" width="495" height="370" alt="Computers"/> </figure>
+  <figure> <img src="css-slideshow/6.jpg" width="495" height="370" alt="Computers"/> </figure>
+  <figure> <img src="css-slideshow/7.jpg" width="495" height="370" alt="Computers"/> </figure>
+  <figure> <img src="css-slideshow/8.jpg" width="495" height="370" alt="Computers"/> </figure>
   </a> </div>
 <div id="specs">
-  <h4> Recommended Specs </h4>
+ 
   <a href="specs.html">
-  <table width="800" border="1" align="center">
+  <table style="width:100%">
     <tbody>
       <tr>
+	  <th rowspan="4"> Recommended Specs </th>
         <th scope="col">Rating</th>
         <th scope="col">CPU</th>
         <th scope="col">RAM</th>
@@ -102,9 +104,9 @@
   <form action="whypc.html" >
     <input type="submit" value="Why PC?">
   </form>
-  <h5 align="center"> <em>By using this site you consent to the use of cookies. Cookies can be managed in your browser or device settings.</em></h5>
-  <h5 align="right" class="footnote"> Copyright &copy; 2016 PC Gaming&trade;. All Rights&reg; Reserved. </h5>
-  <form action="index.html">
+  <h5> <em>By using this site you consent to the use of cookies. Cookies can be managed in your browser or device settings.</em></h5>
+  <h5 class="footnote"> Copyright &copy; 2016 PC Gaming&trade;. All Rights&reg; Reserved. </h5>
+  <form action="#logo">
     <input type="submit" value="Back To Top">
   </form>
 </div>
